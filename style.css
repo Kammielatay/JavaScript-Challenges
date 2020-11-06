@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+/* Challenge 1: Age in Days */
+.container-1, .container-2, .container-3{
+    width: 75%;
+    margin: 150px auto;
+    text-align: center; 
+
+}
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps {
+    display: flex;
+    margin-top: 30px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.flex-box-container-1 div{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+/* Challenge 2: Cat Generator */
+
+
+.flex-box-container-2 img{
+    margin-bottom: 25px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 0px #808080;
+    
+}
+
+#btn-2 {
+    margin: 20px 0;
+}
+
+/* Challenge 3: Rock, Paper, Scissors */
+
+.flex-box-rps img {
+   box-shadow: 2px 2px 0px 0px #BDC3C7;
+   
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 5px 5px 5px 5px #7B241C;
+    
+}
+
+.flex-box-rps img:active{
+    transform: translateY(4px);
+}
+
+.btn {
+    margin-top: 30px;
+}

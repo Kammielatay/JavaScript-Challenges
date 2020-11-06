@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Challenges</title>
+</head>
+<body>
+    <h1>Welcome to my Challenges:</h1>
+
+    <div class="container-1">
+        <h1 class="text-dark">What Is Your Age In Days?</h1>
+    
+        <div class="flex-box-container-1">
+    
+            <div class="flex-box-1">
+                <button class="btn btn-secondary" onclick="ageInDays()">Reveal</button>
+            </div>
+    
+            <div class="flex-box-2">
+                <button class='btn btn-dark' onclick="reset()">Reset</button>
+            </div>
+    
+        </div>
+    
+        <div class="flex-box-container-1">
+            <div id="flex-box-result"></div>
+        </div>
+    
+    </div>
+    <hr>
+
+    <div class="container-2">
+        <h2>Challenge 2:Cat Generator</h2>
+    
+        <button id="btn-2" class="btn btn-secondary" onclick="generateCats()">Generate Cat</button>
+    
+        <div id="flex-box-image" class="flex-box-container-2">
+    
+    
+        </div>
+    
+    </div>
+
+    <hr>
+
+    <div class='container-3'>
+        <h2>Challenge 3: Rock, Paper, Scissors</h2>
+        <div class='flex-box-rps' id='flex-box-rps-div'>
+            <img id='rock'
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRAzBPyx8UrbaNl0O3FqIV-omFCvMN0qqtNHg&usqp=CAU"
+                alt="" height="150" width='150' onclick="playGame(this)">
+            <img id='paper'
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRexFnPPpDMaAf7hAFNkBqdFsjnXd6DkYsizg&usqp=CAU"
+                alt="" height="150" width='150' onclick="playGame(this)">
+            <img id='scissors'
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7tH9w97WvMD-jpby0xtmAVxHMDx-oPJ2--g&usqp=CAU"
+                alt="" height="150" width='150' onclick="playGame(this)">
+    
+        </div>
+        <button class='btn btn-dark' onclick='restart()'>Replay</button>
+    </div>
+
+
+   
+
+    <script src="/main.js"></script>
+</body>
+</html>
