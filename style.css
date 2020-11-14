@@ -7,6 +7,13 @@ body {
     background-color: #eee;
 }
 
+.jumbotron {
+
+    background-color: #333;
+    color:white;
+    padding: 20px 100px;
+}
+
 /* Challenge 1: Age in Days */
 .container-1, .container-2, .container-3{
     width: 75%;
